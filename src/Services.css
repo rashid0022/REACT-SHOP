@@ -1,0 +1,51 @@
+
+.services-page {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.services-hero {
+  background-color: #000;
+  color: gold;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.services-hero h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.services-hero p {
+  font-size: 1.2rem;
+}
+
+
+.services-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 50px 20px;
+  background-color: #f8f9fa;
+}
+
+.service-card {
+  background-color: #000;
+  color: gold;
+  padding: 25px;
+  border-radius: 10px;
+  width: 250px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+.service-card h2 {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
