@@ -5,7 +5,7 @@ function Contact() {
     <section className="contact-section">
       <div className="contact-container">
 
-        {/* Left side - Contact Form */}
+        
         <div className="contact-form-box">
           <h1>Contact Us</h1>
           <form className="contact-form">
@@ -49,7 +49,7 @@ function Contact() {
           </form>
         </div>
 
-        {/* Right side - Contact Info */}
+        
         <div className="contact-info">
           <h2>Get in Touch 📞</h2>
           <p><strong>📍 Address:</strong> Dar es Salaam, Tanzania</p>

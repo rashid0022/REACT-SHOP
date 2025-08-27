@@ -5,7 +5,7 @@ function Home() {
     <section className="home-section">
       <div className="home-container">
         
-        {/* Hero Text */}
+       
         <div className="home-text">
           <h1>Welcome to Aid & Loan System</h1>
           <p>
@@ -19,13 +19,13 @@ function Home() {
           </div>
         </div>
 
-        {/* Hero Image */}
+        
         <div className="home-image">
           <img src="https://cdn-icons-png.flaticon.com/512/1995/1995574.png" alt="Aid and Loan" />
         </div>
       </div>
 
-      {/* Info Highlights */}
+      
       <div className="highlights">
         <div className="highlight-box">
           <h2>💰 Loan Support</h2>

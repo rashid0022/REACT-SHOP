@@ -1,4 +1,4 @@
-/* Reset basic styles */
+
 * {
   margin: 0;
   padding: 0;
@@ -6,9 +6,9 @@
   font-family: Arial, sans-serif;
 }
 
-/* Navbar container */
+
 .navbar {
-  background: #1e3a8a; /* deep blue */
+  background: #1e3a8a; 
   color: #fff;
   display: flex;
   justify-content: space-between;
@@ -20,7 +20,6 @@
   z-index: 1000;
 }
 
-/* Logo */
 .logo {
   font-size: 24px;
   font-weight: bold;
@@ -30,16 +29,16 @@
 }
 
 .logo:hover {
-  color: #facc15; /* yellow accent on hover */
+  color: #facc15; 
 }
 
-/* Navigation links */
+
 .nav-links {
   display: flex;
   gap: 25px;
 }
 
-/* Each link style */
+
 .nav-links a {
   text-decoration: none;
   color: #fff;
@@ -49,7 +48,7 @@
   transition: all 0.3s ease;
 }
 
-/* Underline animation */
+
 .nav-links a::after {
   content: "";
   position: absolute;
@@ -69,10 +68,10 @@
   color: #facc15;
 }
 
-/* Responsive for mobile */
+
 @media (max-width: 768px) {
   .nav-links {
-    display: none; /* hide links on mobile by default */
+    display: none; 
     flex-direction: column;
     gap: 15px;
     background: #1e40af;

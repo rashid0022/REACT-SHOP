@@ -1,14 +1,14 @@
-/* Background section */
+
 .contact-section {
   min-height: 100vh;
   background: #f3f4f6;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 30px;
+  padding: 30px 140px;
 }
 
-/* Main container */
+
 .contact-container {
   display: flex;
   gap: 40px;
@@ -21,7 +21,7 @@
   flex-wrap: wrap;
 }
 
-/* Left side - Form */
+
 .contact-form-box {
   flex: 1;
   min-width: 300px;
@@ -34,7 +34,7 @@
   font-weight: bold;
 }
 
-/* Form styles */
+
 .contact-form {
   display: flex;
   flex-direction: column;
@@ -65,7 +65,7 @@
   box-shadow: 0 0 6px rgba(30, 58, 138, 0.4);
 }
 
-/* Button */
+
 .contact-form button {
   padding: 12px;
   background: linear-gradient(135deg, #1e3a8a, #3b82f6);
@@ -83,7 +83,7 @@
   color: #1e3a8a;
 }
 
-/* Right side - Info */
+
 .contact-info {
   flex: 1;
   min-width: 250px;
@@ -127,7 +127,7 @@
   color: #1e3a8a;
 }
 
-/* Responsive */
+
 @media (max-width: 768px) {
   .contact-container {
     flex-direction: column;
