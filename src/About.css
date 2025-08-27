@@ -1,0 +1,64 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Page background */
+.about-container {
+  min-height: 100vh;
+  background: #f3f4f6; /* light gray */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Main card */
+.about-card {
+  max-width: 800px;
+  background: #fff;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+.about-card h1 {
+  font-size: 28px;
+  color: #1e40af; /* deep blue */
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.about-card h2 {
+  font-size: 22px;
+  color: #333;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.about-card h3 {
+  font-size: 18px;
+  color: #1e3a8a;
+  margin-bottom: 10px;
+}
+
+/* Paragraphs */
+.about-card p {
+  color: #4b5563;
+  line-height: 1.6;
+  text-align: justify;
+  margin-bottom: 15px;
+}
+
+/* Highlighted mission box */
+.mission-box {
+  background: #e0f2fe;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
