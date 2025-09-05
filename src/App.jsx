@@ -48,7 +48,7 @@ export default function App() {
 
   return (
     <div className="app-container">
-      <Navbar setPage={setPage} handleLogout={handleLogout} />
+      <Navbar setPage={setPage} handleLogout={handleLogout} state={state} />
       {notification && (
         <Notification message={notification.msg} type={notification.type} />
       )}

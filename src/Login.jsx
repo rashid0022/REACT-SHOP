@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 
-
-const Login = ({ onLogin, users }) => {
+const Login = ({ state, setState, setPage, showNotification }) => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
@@ -9,11 +8,14 @@ const Login = ({ onLogin, users }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     // Check credentials from users object in state
-    if (users && users[username] && users[username] === password) {
-      onLogin({ username });
+    if (state.users && state.users[username] && state.users[username] === password) {
+      setState({ ...state, currentUser: username });
+      setPage("dashboard");
+      showNotification("Login successful!", "success");
       setError("");
     } else {
       setError("Invalid credentials");
+      showNotification("Invalid credentials", "error");
     }
   };
 
